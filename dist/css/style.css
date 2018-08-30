@@ -83,7 +83,23 @@ a {
 
 
 /* Text-color */
+.text-primary {
+  color: var(--primary-color);
+}
 
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+.text-light {
+  color: var(--light-color);
+}
+
+/* Background */
+.bg-light{
+  background: var(--light-color);
+  color: #333;
+}
 
 /* Showcase */
 #showcase {
